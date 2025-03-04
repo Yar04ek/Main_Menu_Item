@@ -1,6 +1,7 @@
 # Main_Menu_Item
 
 Description
+
 This project is a custom widget for YouTrack that adds a custom menu item to the interface.
 
 📥 Installation
