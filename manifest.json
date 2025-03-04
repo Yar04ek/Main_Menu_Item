@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json.schemastore.org/youtrack-app.json",
+  "id": "main-menu-app",
+  "name": "main-menu-app",
+  "title": "Main Menu App",
+  "description": "A single-widget YouTrack app",
+  "version": "1.0.0",
+  "minYouTrackVersion": "2022.2.0",
+  "vendor": {
+    "name": "Your Company",
+    "url": "https://your-company.com",
+    "email": "support@your-company.com"
+  },
+  "resources": [
+    "widgets/full-page/index.html",
+    "widgets/full-page/bundle.js"
+  ],
+  "widgets": [
+    {
+      "entryPoint": "widgets/full-page/bundle.js",
+      "key": "full-page",
+      "name": "Main Menu Widget",
+      "description": "A single-widget version of the app",
+      "extensionPoint": "MAIN_MENU_ITEM",
+      "indexPath": "widgets/full-page/index.html"
+    }
+  ]
+}
